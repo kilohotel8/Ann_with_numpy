@@ -83,7 +83,7 @@ class Ann_with_np:
 
 
                 ######### backpropagation ##########
-                error3 = output - y_batch
+                error3 = softmax - y_batch
                 d_loss_w3 = np.zeros([200,32,10])
                 for i in range(200):
                     d_loss_w3[i] = hidden2[i].reshape(32,1) * error3[i].reshape(1,10)
