@@ -3,5 +3,5 @@ Ann_with_numpy
 
 result : 
 
-![traing_result](/Users/kh/PycharmProjects/kh_tensorflow/Ann_with_numpy/traing_result.png)
+![traing_result](traing_result.png)
 
