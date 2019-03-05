@@ -146,4 +146,4 @@ def main():
     nn.accuracy(xdata_test,ydata_test)
 
 if __name__ == "__main__":
-	main()
+    main()
